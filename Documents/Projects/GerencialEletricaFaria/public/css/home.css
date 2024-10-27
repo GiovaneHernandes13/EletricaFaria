@@ -1,0 +1,60 @@
+.logo1 {
+    height: 65px;
+    width: 65px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.bnt_create {
+    width: 50px;
+    color: green;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+.input-icon {
+    position: relative;
+}
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+.input-icon input {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.container_os {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-servicos {
+    display: flex;
+    gap: 20px;
+}
+
+.input_qtd {
+    width: 70px;
+}
+
+.input_uni {
+    width: 150px;
+}
+
+.input_total {
+    width: 150px;
+}
+
+.Descricao{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,150 @@
+#itens_ordem {
+    display: flex;
+    flex-direction: column; /* Mantém a estrutura de coluna para o título e o botão Adicionar */
+}
+
+.item_ordem {
+    display: flex;          /* Altera o layout para flex */
+    flex-direction: row;   /* Alinha os itens em linha */
+    align-items: center;   /* Alinha verticalmente no centro */
+    margin-bottom: 10px;   /* Espaçamento entre os itens */
+}
+
+.produto, .qtd, .uni {
+    margin-right: 10px;    /* Espaçamento entre os itens */
+}
+
+.remove-item {
+    margin-left: 10px;     /* Espaçamento à esquerda do botão Remover */
+}
+
+.BotaoAddNewIten {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    width: 200px;
+    margin-left: 10px;
+}
+
+/* Efeito de hover */
+.BotaoAddNewIten:hover {
+    background-color: #0056b3; /* Cor de fundo azul escuro ao passar o mouse */
+}
+
+#detalhes_ordem {
+    display: flex;
+    flex-direction: column; /* Mantém a estrutura de coluna para o título e os detalhes da O.S. */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Preenchimento interno */
+}
+
+/* Estilo para cada item da ordem */
+.item_os {
+    display: flex;          /* Altera o layout para flex */
+    flex-direction: row;   /* Alinha os itens em linha */
+    align-items: center;   /* Alinha verticalmente no centro */
+    margin-bottom: 15px;   /* Espaçamento entre os itens */
+    padding: 10px; /* Preenchimento interno */
+    background-color: #f8f9fa; /* Fundo suave para os itens */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Sombra leve */
+}
+
+/* Estilo para as classes de item */
+.produto, .quantidade, .preco_unitario, .total {
+    flex: 1; /* Permite que os itens se expandam igualmente */
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para o botão Remover */
+.botao_remover {
+    background-color: #dc3545; /* Vermelho para o botão remover */
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover para o botão Remover */
+.botao_remover:hover {
+    background-color: #c82333; /* Cor vermelha escura ao passar o mouse */
+}
+
+/* Estilo para o botão Adicionar */
+.botao_adicionar {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradiente azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+    width: 200px; /* Largura fixa */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Efeito de hover para o botão Adicionar */
+.botao_adicionar:hover {
+    background-color: #0056b3; /* Cor de fundo azul escuro ao passar o mouse */
+    transform: translateY(-2px); /* Levanta o botão ao passar o mouse */
+}
+
+/* Estilo para os detalhes da O.S. */
+.detalhes-os {
+    display: flex;
+    flex-direction: column; /* Mantém a estrutura de coluna para os detalhes da O.S. */
+    padding: 20px; /* Preenchimento interno */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para os itens da lista de detalhes */
+.detalhes-os li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para a seção de Mão de Obra */
+.mao-de-obra {
+    display: flex;
+    flex-direction: column; /* Mantém a estrutura de coluna para Mão de Obra */
+    padding: 20px; /* Preenchimento interno */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.botao-pdf {
+    display: inline-flex; /* Permite que o ícone e o texto fiquem alinhados horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-decoration: none; /* Remove o sublinhado do link */
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-top: 15px; /* Espaçamento superior */
+}
+
+.botao-pdf:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+.icons {
+    width: 20px; /* Largura do ícone */
+    height: 20px; /* Altura do ícone */
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+
